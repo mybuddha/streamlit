@@ -7,7 +7,7 @@ with st.sidebar:
     menu_title="Main Menu", #required
     option=["Home", "Projects", "Contact"]
   )
-
+  st.title(f"You have selected {selected}")
 if selected == "Home":
   st.title(f"You have selected {selected}")
 if selected == "Projects":
