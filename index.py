@@ -1,4 +1,5 @@
 import streamlit as st
+from stramlit_option_menu import option_menu
 
 st.write("""
 # Uber pickups in **NYC** *app*!'
