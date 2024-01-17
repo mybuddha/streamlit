@@ -1,6 +1,10 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
 
+st.write("""
+# Uber pickups in **NYC** *app*!'
+""")
+
 # 1. as Sidebar menu
 with st.sidebar:
   selected = option_menu(
