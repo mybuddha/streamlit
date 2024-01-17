@@ -2,4 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-st.title('Uber pickups in NYC')
+st.write("""
+# Uber pickups in **NYC** *app*!'
+""")
